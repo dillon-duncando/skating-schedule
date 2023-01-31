@@ -4,6 +4,7 @@
  * @type {import('next').NextConfig}
  **/
 const nextConfig = {
+  basePath: '/skating-schedule',
   typescript: {
     ignoreBuildErrors: true,
   },
